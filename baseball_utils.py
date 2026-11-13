@@ -28,3 +28,11 @@ def to_numbers(text):
     for ch in text:
         nums.append(int(ch))
     return nums
+
+
+# [블록 3] 문자열 '381' → 리스트 [3, 8, 1]
+def to_numbers(text):
+    nums = []
+    for ch in text:
+        nums.append(int(ch))
+    return nums
