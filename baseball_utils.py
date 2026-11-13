@@ -54,3 +54,10 @@ def count_ball(answer, guess):
         if guess[i] != answer[i] and guess[i] in answer:
             ball += 1
     return ball
+
+
+# [블록 6] 판정 결과를 글자로
+def result_text(strike, ball):
+    if strike == 0 and ball == 0:
+        return 'OUT'
+    return f'{strike}S {ball}B'
